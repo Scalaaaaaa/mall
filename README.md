@@ -31,7 +31,7 @@
 
 项目演示地址： [http://www.macrozheng.com/admin/index.html](http://www.macrozheng.com/admin/index.html)  
 
-![后台管理系统功能演示.gif](/document/resource/mall-admin.gif)
+![后台管理系统功能演示](http://img.macrozheng.com/mall/project/mall_admin_show.png)
 
 #### 前台商城系统
 
@@ -39,7 +39,7 @@
 
 项目演示地址：[http://www.macrozheng.com/app/index.html](http://www.macrozheng.com/app/index.html)
 
-![前台商城系统功能演示.gif](/document/resource/mall-app.gif)
+![前台商城系统功能演示](http://img.macrozheng.com/mall/project/mall_app_show.png)
 
 ### 组织结构
 
@@ -97,11 +97,11 @@ mall
 
 ##### 系统架构图
 
-![系统架构图](document/resource/mall_micro_service_arch.jpg)
+![系统架构图](http://img.macrozheng.com/mall/project/mall_micro_service_arch.jpg)
 
 ##### 业务架构图
 
-![系统架构图](document/resource/mall_business_arch.png)
+![系统架构图](http://img.macrozheng.com/mall/project/mall_business_arch.png)
 
 #### 模块介绍
 
@@ -119,7 +119,7 @@ mall
 
 #### 开发进度
 
-![项目开发进度图](document/resource/mall_dev_flow.png)
+![项目开发进度图](http://img.macrozheng.com/mall/project/mall_dev_flow.png)
 
 ## 环境搭建
 
@@ -128,7 +128,7 @@ mall
 | 工具          | 说明                | 官网                                            |
 | ------------- | ------------------- | ----------------------------------------------- |
 | IDEA          | 开发IDE             | https://www.jetbrains.com/idea/download         |
-| RedisDesktop  | redis客户端连接工具 | https://redisdesktop.com/download               |
+| RedisDesktop  | redis客户端连接工具 | https://github.com/qishibo/AnotherRedisDesktopManager  |
 | Robomongo     | mongo客户端连接工具 | https://robomongo.org/download                  |
 | SwitchHosts   | 本地host管理        | https://oldj.github.io/SwitchHosts/             |
 | X-shell       | Linux远程连接工具   | http://www.netsarang.com/download/software.html |
@@ -150,10 +150,12 @@ mall
 | JDK           | 1.8    | https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html |
 | Mysql         | 5.7    | https://www.mysql.com/                                       |
 | Redis         | 5.0    | https://redis.io/download                                    |
-| Elasticsearch | 6.2.2  | https://www.elastic.co/downloads                             |
 | MongoDB       | 4.2.5  | https://www.mongodb.com/download-center                      |
 | RabbitMQ      | 3.7.14 | http://www.rabbitmq.com/download.html                        |
 | Nginx         | 1.10   | http://nginx.org/en/download.html                            |
+| Elasticsearch | 7.6.2  | https://www.elastic.co/downloads/elasticsearch               |
+| Logstash      | 7.6.2  | https://www.elastic.co/cn/downloads/logstash                 |
+| Kibana        | 7.6.2  | https://www.elastic.co/cn/downloads/kibana                   |
 
 ### 搭建步骤
 
@@ -177,7 +179,8 @@ mall
 
 - ELK日志收集系统的搭建请参考：[SpringBoot应用整合ELK实现日志收集](http://www.macrozheng.com/#/technology/mall_tiny_elk);
 - 使用MinIO存储文件请参考：[前后端分离项目，如何优雅实现文件存储](http://www.macrozheng.com/#/technology/minio_use);
-- 读写分离解决方案请参考：[你还在代码里做读写分离么，试试这个中间件吧](http://www.macrozheng.com/#/reference/gaea)。
+- 读写分离解决方案请参考：[你还在代码里做读写分离么，试试这个中间件吧](http://www.macrozheng.com/#/reference/gaea);
+- Redis集群解决方案请参考：[Docker环境下秒建Redis集群，连SpringBoot也整上了！](http://www.macrozheng.com/#/reference/redis_cluster)。
 
 ## 公众号
 
